@@ -49,10 +49,6 @@
         window.onload = () => {
             setTimeout(() => {
                 $.getScript("<?= $url; ?>/src/js/chat.min.js");
-                // $.getScript("<?= $url; ?>/src/js/msclarity.min.js");
-                // $.getScript("<?= $url; ?>/src/js/fancybox.min.js");
-                // $.getScript("https://www.googletagmanager.com/gtag/js?id=AW-11114809734");
-                $.getScript("<?= $url; ?>/src/js/googletagmanager.min.js");
             }, 7000);
         }
     </script>
